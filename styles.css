@@ -1,6 +1,11 @@
 h3 {
-    color: #4682b4 /* steel blue */
+    color: #4682b4; /* steel blue */
     /* #1e2736; is too dark */
+}
+
+h4 {
+    color: #fff;
+    font-size: 10px;
 }
 
 article {
