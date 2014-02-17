@@ -1,0 +1,12 @@
+h3 {
+    color: #4682b4 /* steel blue */
+    /* #1e2736; is too dark */
+}
+
+article {
+    width: 500px;
+    padding: 10px;
+    /*border: 1px solid #708090;*/
+    margin: 0 auto;
+}
+
