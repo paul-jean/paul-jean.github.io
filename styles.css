@@ -1,15 +1,15 @@
 h3 {
-    color: #4682b4; /* steel blue */
-    /* #1e2736; is too dark */
+    color: #4682b4; /* steel blue (#1e2736 is too dark) */
+    font-size: 14px;
 }
 
 h4 {
     color: #000000;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 article {
-    width: 500px;
+    width: 450px;
     padding: 10px;
     /*border: 1px solid #708090;*/
     margin: 0 auto;
