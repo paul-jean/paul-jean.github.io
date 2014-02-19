@@ -8,7 +8,24 @@
     </head>
 
     <body>
-        <!-- TODO: us js to insert date for post -->
+        <article id="20140219-01">
+            <h3> Playing with scoping in JS [2014.02.19] </h3>
+            <p>
+                Did this <a href="https://gist.github.com/paul-jean/9097826">gist</a> with <a href="https://github.com/jskelcy">Jake</a>,
+                who is introducing me to JS. We were trying to figure out how "this" works in JS objects. I wondered 
+                if you do <br><br>
+
+                var f = function() {var x = 10}; <br><br>
+
+                ... whether "x" here implies "this.x" inside f. But it turns out x is referring to the 
+                <em>global</em> namespace. You have to use "this" explicitly, i.e. <br><br>
+
+                var f = function() {var this.x = 10};<br>
+                var y = new f(); <br><br>
+
+                ... in order to bind x to f's namespace.
+            </p>
+        </article>
         <article>
             <h3> Advice from Mel Chua on Outing [2014.02.17] </h3>
             <p>
