@@ -1,119 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="styles.css">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=0.5">
-        <title> Paul-Jean's blog </title>
-    </head>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=0.5">
+    <title> Paul-Jean's blog </title>
+  </head>
 
-    <body>
-        <article id="20140221">
-            <h3> Game of life in JS! </h3>
-            <p>
-                Just got the game of life working as an <a href="life.html">animation</a> in javascript.
-                Click on the squares to toggle the cells black/white and hit the "start" button to watch it go!
-            </p>
-        </article>
-        <article id="20140219-01">
-            <h3> Project idea: scrape Zulip for events and add them to a Google calendar </h3>
-            <p> 
-                Suggested by Gina! Zulip is a fast-moving stream so it's easy to miss comments like 
-                "meeting in Hopper at 2 pm to review python internals". It would be super useful to 
-                scrape the Zulip stream for events going on and have them added to a Google cal.
-            </p>
-        </article>
-        <article>
-            <h3> Website TODO ... [2014.02.19] </h3>
-            <ul>
-                <li> add twitter feed </li>
-                <li> add nav bar (across pages) </li>
-            </ul>
-        </article>
-        <article id="20140219">
-            <h3> Playing with scoping in JS [2014.02.19] </h3>
-            <p>
-                Did this <a href="https://gist.github.com/paul-jean/9097826">gist</a> with <a href="https://github.com/jskelcy">Jake</a>,
-                who is introducing me to JS. We were trying to figure out how "this" works in JS objects. I wondered 
-                if you do <br><br>
+  <body>
+    <article> 
+      <h3> <a href="#20140303-3"> app idea: touch boggle [2014.03.03]</a> </h3>
+      <ul>
+        <li> Trace out words on the boggle board using finger swipes </li>
+      </ul>
+    </article>
+    <article> 
+      <h3> <a href="#20140303-2">webapp idea: FeedMe [2014.03.03]</a> </h3>
+      <ul>
+        <li> Gives you a random choice from nearby restaurants </li>
+        <li> Uses the Yelp and/or Foursquare API </li>
+        <li> Learns your restaurant preferences over time to give you choices you'll like </li>
+        <li> Future: find a restaurant between you and your friends' current locations </li>
+      </ul>
+    </article>
+    <article> 
+      <h3> <a href="#20140303">TODO: game of life [2014.03.03]</a> </h3>
+      <ul>
+        <li> Translate to D3.js! </li>
+        <li> Add divs for layout </li>
+      </ul>
+    </article>
+    <article> 
+      <h3> <a href="#20140224">wego: crowd-source your plans</a> </h3>
+      <p> 
+        Wego lets your friends suggest things to do and places to go. 
+      </p>
+      <ul>
+        <li> Talk to a facilitator</li>
+      </ul>
+    </article>
+    <article>
+      <h3> Game of life TODO </h3>
+      <ul>
+        <li> Increase grid size on <a href="life.html">game of life</a> </li>
+        <li> Single cell with no neighbors stays living? That's a bug. </li>
+        <li> Layout buttons and GOL array in a grid using html5 </li>
+        <li> Implement optimizations: cache structures that have been seen, only update 2 cells around living cells </li>
+        <li> What data structures can help optimize? </li>
+      </ul>
+    </article>
+    <article>
+      <h3> Questions for Evan in residence </h3>
+      <ul>
+        <li> Will I develop bad habits if I switch to using JS for data structures
+          and algorithms practice? i.e. JS is dynamically typed, is interpreted, etc. </li>
+      </ul>
+    </article>
+    <article>
+      <h3> <a href="20140221">Game of life in JS!</a> </h3>
+      <p>
+        Just got the game of life working as an <a href="life.html">animation</a> in javascript.
+        Click on the squares to toggle the cells black/white and hit the "start" button to watch it go!
+      </p>
+    </article>
+    <article>
+      <h3> <a href="20140219-01">Project idea: scrape Zulip for events and add them to a Google calendar</a> </h3>
+      <p> 
+        Suggested by Gina! Zulip is a fast-moving stream so it's easy to miss comments like 
+        "meeting in Hopper at 2 pm to review python internals". It would be super useful to 
+        scrape the Zulip stream for events going on and have them added to a Google cal.
+      </p>
+    </article>
+    <article>
+      <h3> Website TODO ... [2014.02.19] </h3>
+      <ul>
+        <li> add twitter feed </li>
+        <li> add nav bar (across pages) </li>
+      </ul>
+    </article>
+    <article>
+      <h3> <a href="20140219">Playing with scoping in JS [2014.02.19]</a> </h3>
+      <p>
+        Did this <a href="https://gist.github.com/paul-jean/9097826">gist</a> with <a href="https://github.com/jskelcy">Jake</a>,
+        who is introducing me to JS. We were trying to figure out how "this" works in JS objects. I wondered 
+        if you do <br><br>
 
-                var f = function() {var x = 10}; <br><br>
+        var f = function() {var x = 10}; <br><br>
 
-                ... whether "x" here implies "this.x" inside f. But it turns out x is referring to the 
-                <em>global</em> namespace. You have to use "this" explicitly, i.e. <br><br>
+        ... whether "x" here implies "this.x" inside f. But it turns out x is referring to the 
+        <em>global</em> namespace. You have to use "this" explicitly, i.e. <br><br>
 
-                var f = function() {var this.x = 10};<br>
-                var y = new f(); <br><br>
+        var f = function() {var this.x = 10};<br>
+        var y = new f(); <br><br>
 
-                ... in order to bind x to f's namespace.
-            </p>
-        </article>
-        <article>
-            <h3> Advice from Mel Chua on Outing [2014.02.17] </h3>
-            <p>
-                <ul>
-                    <li> Am I a local or global learner? 
-                        i.e. Do I need to see the whole project scope before getting too deep into details?
-                        Or do I like to start by working through the language specification?
-                        I'm definitely a <em>global</em> learner 
-                        (in physics I wanted to know <em>why</em> I was learning quantum mechanics) </li>
-                    <li> Since I'm global, maybe tackle the web requests in the front/middle layers via the FB API, 
-                        since that's where most of the logic is. </li>
-                    <li> What language? Maybe Javascript since I want to learn it and it will help me with the front end too. 
-                        (My suggestion; Mel doesn't get along with JS) </li>
-                </ul>
-        <article id="20140217">
-            <h3> "Outing" web app: crowd-source your plans [2014.02.17] </h3>
-            <p>
-                An app that takes the pain out of making plans with friends. Create an "outing" and invite friends into it.
-                Your friends can vote on things to do and places to go. The app uses the votes to create an itinerary everyone can see.
-            </p>
-            <p>
-                Features:
-                <ul>
-                    <li> Connect with friends on FB, Foursquare, Google+, etc. </li>
-                    <li> Give it a title, e.g. "Drinks tonight!", "Broadway show?", "Weekend in Miami" </li>
-                    <li> Send out an open invite or choose friends to notify </li>
-                    <li> Joiners can vote on things to do and places to go </li>
-                    <li> The app creates an itinerary based on everone's votes </li>
-                </ul>
-            </p>
-            <p>
-                Challenges:
-                <ul>
-                    <li> Can Outing decide what order to do things in? e.g. optimal path is the traveling salesman problem.
-                        Hard in general but not bad if N < 10 or so. </li>
-                    <li> Can Outing suggest things to do next? e.g. Just finished dinner at 7:30, suggest seeing "Her" at nearby theatre starting at 8. </li>
-                </ul>
-            </p>
-        </article>
-        <article>
-            <h3> TODO ... [2014.02.17] </h3>
-            <ul>
-                <li> Make a separate stylesheet for mobile. </li>
-            </ul>
-        </article>
-        <article>
-            <h3> Project ideas [2014.02.17] </h3>
-            <p>
-                <ul>
-                    <li> Boggle board generator (maybe similar to <a href=http://www.gtoal.com/scrabble/chuong_do/boggle.html>this</a> monte-carlo solver. </li>
-                    <li> Distributed boggle board solver (in Scala? write it in MapReduce?) </li>
-                    <li> "Outing" web app: crowd source your plans (friends vote on places to go, app creates itinerary) </li>
-                </ul>
-            </p>
-        </article>
-        <article>
-            <h3> [2014.02.15] </h3>
-            <p>
-                Decided to try building my blog from scratch.
-            </p>
-        </article>
-        <article>
-            <h3> Mary's live-coded Javascript Space Invaders! [2014.02.13] </h3>
-            <p>
-                Awesome <a href="game.html">game</a> Mary made in a <a href="https://github.com/maryrosecook/gamelivecode">live coding session</a>.
-            </p>
-        </article>
-    </body>
+        ... in order to bind x to f's namespace.
+      </p>
+    </article>
+    <article>
+      <h3> Advice from Mel Chua on Outing [2014.02.17] </h3>
+      <ul>
+        <li> Am I a local or global learner? 
+          i.e. Do I need to see the whole project scope before getting too deep into details?
+          Or do I like to start by working through the language specification?
+          I'm definitely a <em>global</em> learner 
+          (in physics I wanted to know <em>why</em> I was learning quantum mechanics) </li>
+        <li> Since I'm global, maybe tackle the web requests in the front/middle layers via the FB API, 
+          since that's where most of the logic is. </li>
+        <li> What language? Maybe Javascript since I want to learn it and it will help me with the front end too. 
+          (My suggestion; Mel doesn't get along with JS) </li>
+      </ul>
+    </article>
+    <article>
+      <h3> <a href="#20140217">"Outing" web app: crowd-source your plans [2014.02.17]</a> </h3>
+      <p>
+        An app that takes the pain out of making plans with friends. Create an "outing" and invite friends into it.
+        Your friends can vote on things to do and places to go. The app uses the votes to create an itinerary everyone can see.
+        Features:<br>
+      </p>
+      <ul>
+        <li> Connect with friends on FB, Foursquare, Google+, etc. </li>
+        <li> Give it a title, e.g. "Drinks tonight!", "Broadway show?", "Weekend in Miami" </li>
+        <li> Send out an open invite or choose friends to notify </li>
+        <li> Joiners can vote on things to do and places to go </li>
+        <li> The app creates an itinerary based on everone's votes </li>
+      </ul>
+      Challenges:
+      <ul>
+        <li> Can Outing decide what order to do things in? e.g. optimal path is the traveling salesman problem.
+          Hard in general but not bad if N < 10 or so. </li>
+        <li> Can Outing suggest things to do next? e.g. Just finished dinner at 7:30, suggest seeing "Her" at nearby theatre starting at 8. </li>
+      </ul>
+    </article>
+    <article>
+      <h3> TODO ... [2014.02.17] </h3>
+      <ul>
+        <li> Make a separate stylesheet for mobile. </li>
+      </ul>
+    </article>
+    <article>
+      <h3> Project ideas [2014.02.17] </h3>
+      <ul>
+        <li> Boggle board generator (maybe similar to <a href=http://www.gtoal.com/scrabble/chuong_do/boggle.html>this</a> monte-carlo solver. </li>
+        <li> Distributed boggle board solver (in Scala? write it in MapReduce?) </li>
+        <li> "Outing" web app: crowd source your plans (friends vote on places to go, app creates itinerary) </li>
+      </ul>
+    </article>
+    <article>
+      <h3> [2014.02.15] </h3>
+      <p>
+        Decided to try building my blog from scratch.
+      </p>
+    </article>
+    <article>
+      <h3> Mary's live-coded Javascript Space Invaders! [2014.02.13] </h3>
+      <p>
+        Awesome <a href="game.html">game</a> Mary made in a <a href="https://github.com/maryrosecook/gamelivecode">live coding session</a>.
+      </p>
+    </article>
+  </body>
 </html>
