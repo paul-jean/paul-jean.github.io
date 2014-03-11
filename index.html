@@ -9,19 +9,56 @@
 
   <body>
     <article>
-      <h3> <a href="#20140304"> map/reduce on browsers with javascript </a> </h3>
+      <h3> <a name="20140311-2" href="20140311-2"> Blog TODO: preview posts with More >> button [2014.03.11]</a> </h3>
+    </article>
+    <article>
+      <h3> <a name="20140311" href="20140311"> Re-implement game of life in ClojureScript [2014.03.11]</a> </h3>
+      <ul>
+        <li> ... and then in Om (which uses react.js) </li>
+        <li> Present on the different GOL implementations on Thurs </li>
+      </ul>
+    </article>
+    <article>
+      <h3> <a name="20140307-4" href="#20140307-4">Blog TODO: embed twitter feed [2014.03.07]</a> </h3>
+      <p> Instructions on twitter site <a href="https://dev.twitter.com/docs/embedded-timelines">here</a> </p>
+    </article>
+    <article>
+      <h3> <a name="20140307-3" href="#20140307-3">FeedMe idea: learn your preferences over time [2014.03.07]</a> </h3>
+      <ul>
+        <li> Learn your restaurant preferences over time </li>
+        <li> Future: find a restaurant close to you and your friends </li>
+      </ul>
+    </article>
+    <article>
+      <h3> <a name="20140307-2" href="#20140307-2">Project idea: rule 146 max-run analysis in scalding [2014.03.07]</a> </h3>
+      <ul>
+        <li> Run large widths on hadoop using scalding, on amazon </li>
+        <li> Need to write a distributed algorithm for running 1D CAs </li>
+        <li> Do data analysis in python or javascript </li>
+        <li> Could also try distributing computation using a javascript map/reduce library </li>
+      </ul>
+    </article>
+    <article>
+      <h3> <a name="20140307" href="#20140307">TODO: game of life [2014.03.07]</a> </h3>
+      <ul>
+        <li> Profile the react.js implementation. Why is the frame rate jumpy/inconsistent? </li>
+        <li> Tweet the results at thomas </li>
+      </ul>
+    </article>
+    <article>
+      <h3> <a name="20140304" href="#20140304"> map/reduce on browsers with javascript [2014.03.04]</a> </h3>
       <p>
-        Could try using <a href="https://crowdprocess.com/index">CrowdProcess</a> to do <a href="http://jcla1.com/blog/2013/05/11/javascript-mapreduce/"> map/reduce in javascript</a> using latent browser power.
+      Could try using <a href="https://crowdprocess.com/index">CrowdProcess</a> to do <a href="http://jcla1.com/blog/2013/05/11/javascript-mapreduce/"> map/reduce in javascript</a> using latent browser power.
       </p>
     </article>
-    <article> 
-      <h3> <a href="#20140303-3"> app idea: touch boggle [2014.03.03]</a> </h3>
+    <article>
+      <h3> <a name=20140303-3 href="#20140303-3"> app idea: touch boggle [2014.03.03]</a> </h3>
       <ul>
         <li> Trace out words on the boggle board using finger swipes </li>
       </ul>
     </article>
-    <article> 
-      <h3> <a href="#20140303-2">webapp idea: FeedMe [2014.03.03]</a> </h3>
+    <article>
+      <h3> <a name=20140303-2 href="#20140303-2">webapp idea: FeedMe [2014.03.03]</a> </h3>
       <ul>
         <li> Gives you a random choice from nearby restaurants </li>
         <li> Uses the Yelp and/or Foursquare API </li>
@@ -29,17 +66,17 @@
         <li> Future: find a restaurant between you and your friends' current locations </li>
       </ul>
     </article>
-    <article> 
-      <h3> <a href="#20140303">TODO: game of life [2014.03.03]</a> </h3>
+    <article>
+      <h3> <a name=20140303 href="#20140303">TODO: game of life [2014.03.03]</a> </h3>
       <ul>
         <li> Translate to D3.js! </li>
         <li> Add divs for layout </li>
       </ul>
     </article>
-    <article> 
-      <h3> <a href="#20140224">wego: crowd-source your plans</a> </h3>
-      <p> 
-        Wego lets your friends suggest things to do and places to go. 
+    <article>
+      <h3> <a name=20140224 href="#20140224">wego: crowd-source your plans</a> </h3>
+      <p>
+        Wego lets your friends suggest things to do and places to go.
       </p>
       <ul>
         <li> Talk to a facilitator</li>
@@ -71,9 +108,9 @@
     </article>
     <article>
       <h3> <a href="20140219-01">Project idea: scrape Zulip for events and add them to a Google calendar</a> </h3>
-      <p> 
-        Suggested by Gina! Zulip is a fast-moving stream so it's easy to miss comments like 
-        "meeting in Hopper at 2 pm to review python internals". It would be super useful to 
+      <p>
+        Suggested by Gina! Zulip is a fast-moving stream so it's easy to miss comments like
+        "meeting in Hopper at 2 pm to review python internals". It would be super useful to
         scrape the Zulip stream for events going on and have them added to a Google cal.
       </p>
     </article>
@@ -88,12 +125,12 @@
       <h3> <a href="20140219">Playing with scoping in JS [2014.02.19]</a> </h3>
       <p>
         Did this <a href="https://gist.github.com/paul-jean/9097826">gist</a> with <a href="https://github.com/jskelcy">Jake</a>,
-        who is introducing me to JS. We were trying to figure out how "this" works in JS objects. I wondered 
+        who is introducing me to JS. We were trying to figure out how "this" works in JS objects. I wondered
         if you do <br><br>
 
         var f = function() {var x = 10}; <br><br>
 
-        ... whether "x" here implies "this.x" inside f. But it turns out x is referring to the 
+        ... whether "x" here implies "this.x" inside f. But it turns out x is referring to the
         <em>global</em> namespace. You have to use "this" explicitly, i.e. <br><br>
 
         var f = function() {var this.x = 10};<br>
@@ -105,19 +142,19 @@
     <article>
       <h3> Advice from Mel Chua on Outing [2014.02.17] </h3>
       <ul>
-        <li> Am I a local or global learner? 
+        <li> Am I a local or global learner?
           i.e. Do I need to see the whole project scope before getting too deep into details?
           Or do I like to start by working through the language specification?
-          I'm definitely a <em>global</em> learner 
+          I'm definitely a <em>global</em> learner
           (in physics I wanted to know <em>why</em> I was learning quantum mechanics) </li>
-        <li> Since I'm global, maybe tackle the web requests in the front/middle layers via the FB API, 
+        <li> Since I'm global, maybe tackle the web requests in the front/middle layers via the FB API,
           since that's where most of the logic is. </li>
-        <li> What language? Maybe Javascript since I want to learn it and it will help me with the front end too. 
+        <li> What language? Maybe Javascript since I want to learn it and it will help me with the front end too.
           (My suggestion; Mel doesn't get along with JS) </li>
       </ul>
     </article>
     <article>
-      <h3> <a href="#20140217">"Outing" web app: crowd-source your plans [2014.02.17]</a> </h3>
+      <h3> <a name=20140217 href="#20140217">"Outing" web app: crowd-source your plans [2014.02.17]</a> </h3>
       <p>
         An app that takes the pain out of making plans with friends. Create an "outing" and invite friends into it.
         Your friends can vote on things to do and places to go. The app uses the votes to create an itinerary everyone can see.
