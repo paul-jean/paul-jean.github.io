@@ -56,9 +56,8 @@ article {
 
 @media screen and (max-width: 768px) {
   #content {
-    background-color: yellow;
     width: 100%;
-    margin: 0 5px;
+    margin: 10px 10px;
   }
   h2 {
   }
