@@ -6,6 +6,27 @@ h1 {
   font-size: 36px;
 }
 
+.post h1 {
+  font-size: 24px;
+}
+
+.post h2 {
+  font-size: 36px;
+}
+
+#title {
+  float: left;
+}
+
+#nav {
+  float: right;
+}
+
+#nav li {
+  display: inline-block;
+}
+
+
 h2 {
     color: #4682b4; /* steel blue (#1e2736 is too dark) */
     font-size: 24px;
@@ -49,6 +70,7 @@ p {
 }
 
 article {
+  clear: both;
   margin: 30px 0px;
   padding-bottom: 30px;
   border-bottom: 1px solid #ccc;
