@@ -1,4 +1,5 @@
 exclude: vendor
+highlighter: pygments
 markdown: kramdown
 kramdown:
   input: GFM
