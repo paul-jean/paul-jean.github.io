@@ -19,6 +19,10 @@ h1 {
   list-style-type: none;
 }
 
+.post_text {
+  clear:both;
+}
+
 #title {
   float: left;
 }
