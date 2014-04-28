@@ -29,6 +29,7 @@ h1 {
 
 #nav {
   float: right;
+  padding-bottom: 40px;
 }
 
 #nav li {
