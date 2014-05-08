@@ -4,6 +4,7 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 36px;
+  line-height: 1;
 }
 
 .post h1 {
@@ -36,13 +37,19 @@ h1 {
   display: inline-block;
 }
 
-h2 {
-    color: #4682b4; /* steel blue (#1e2736 is too dark) */
+h2, h3 {
+    color: #32839c; /* steel blue (#1e2736 is too dark) */
     font-size: 24px;
     font-weight: 600;
     line-height: 30px;
     margin-bottom: 5px;
     margin-top: 30px;
+}
+
+h3 {
+    color: #db166d;
+    font-size: 18px;
+    line-height: 1.25;
 }
 
 body {
@@ -69,13 +76,13 @@ li {
 }
 
 p {
-  padding: 10px 0;
+  padding: 10px 0px;
 }
 
 .content {
   clear: both;
   padding-top: 50px;
-  width: 700px;
+  width: 70%;
   /*border: 1px solid #708090;*/
   margin: 0 auto;
 }
@@ -87,12 +94,26 @@ article {
   border-bottom: 1px solid #ccc;
 }
 
-@media screen and (max-width: 768px) {
-  #content {
-    width: 100%;
-    margin: 10px 10px;
-    padding: 0 10px;
+.highlight {
+  background: #f9f9f9;
+  padding: 15px;
+  border: 1px solid #eee;
+  margin: 10px 0;
+}
+
+code {
+  font-family: courier;
+}
+
+@media screen and (max-width: 800px) {
+  .content {
+    width: 85%;
   }
-  h2 {
+  #nav {
+    clear: both;
+    float: left;
+  }
+  #nav li {
+    margin: 0px 19px 0px 0px;
   }
 }
