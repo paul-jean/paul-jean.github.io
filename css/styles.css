@@ -1,82 +1,7 @@
-h1 {
-  padding-bottom: 20px;
-  font-family: 'Bree Serif', serif;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 36px;
-  line-height: 1;
-}
-
-.post h1 {
-  font-size: 24px;
-}
-
-.post h2 {
-  font-size: 36px;
-}
-
-#postlist {
-  clear: both;
-  list-style-type: none;
-}
-
-.post_text {
-  clear:both;
-}
-
-#title {
-  float: left;
-}
-
-#nav {
-  float: right;
-  padding-bottom: 40px;
-}
-
-#nav li {
-  display: inline-block;
-}
-
-h2, h3 {
-    color: #32839c; /* steel blue (#1e2736 is too dark) */
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 30px;
-    margin-bottom: 5px;
-    margin-top: 30px;
-}
-
-h3 {
-    color: #db166d;
-    font-size: 18px;
-    line-height: 1.25;
-}
-
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 22px;
-}
-
-
-a {
-  text-decoration: none;
-  color: #4682b4;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: red;
-}
-
-li {
-  padding: 5px 0;
-  list-style-type: square;
-  margin-left: 19px;
-}
-
-p {
-  padding: 10px 0px;
 }
 
 .content {
@@ -94,6 +19,75 @@ article {
   border-bottom: 1px solid #ccc;
 }
 
+h1 {
+  padding-bottom: 20px;
+  font-family: 'Bree Serif', serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 36px;
+  line-height: 1;
+}
+
+h2, h3 {
+    color: #32839c; /* steel blue (#1e2736 is too dark) */
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #db166d;
+    font-size: 18px;
+    line-height: 1.25;
+}
+
+a {
+  text-decoration: none;
+  color: #4682b4;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+li {
+  padding: 5px 0;
+  list-style-type: square;
+  margin-left: 19px;
+}
+
+.post h1 {
+  font-size: 24px;
+}
+
+.post h2 {
+  font-size: 36px;
+}
+
+.figure {
+  font-size: 12px;
+}
+
+p {
+  padding: 10px 0px;
+}
+
+code {
+  font-family: courier;
+}
+
+#postlist {
+  clear: both;
+  list-style-type: none;
+}
+
+.post_text {
+  clear:both;
+}
+
 .highlight {
   background: #f9f9f9;
   padding: 15px;
@@ -101,8 +95,17 @@ article {
   margin: 10px 0;
 }
 
-code {
-  font-family: courier;
+#title {
+  float: left;
+}
+
+#nav {
+  float: right;
+  padding-bottom: 40px;
+}
+
+#nav li {
+  display: inline-block;
 }
 
 @media screen and (max-width: 800px) {
