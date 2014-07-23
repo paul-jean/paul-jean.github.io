@@ -34,6 +34,8 @@ MutationSummary API in conjunction with CSS3 animations.
 
 ## Wolfram
 
+I was a developer at [Wolfram](http://www.wolfram.com) from 2007 to 2014.
+
 ### Integration of Hadoop with the Wolfram language
 
 I wrote a couple of blog posts at Wolfram showing how Hadoop could be used from
