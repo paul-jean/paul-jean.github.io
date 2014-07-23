@@ -166,10 +166,6 @@ So React is much more efficient by comparison to vanilla JS:
 
 {% include figure.html url="../../../images/gol-js-vs-react-div.gif" description="React (right) touches the DOM much more selectively than the vanilla JS implementation (left)" %}
 
-
-## Conclusions
-
-
 This was a simple demo showing the basic ideas of React, using an app with super simple application logic.
 
 * React maintains a virtual DOM (vDOM)
@@ -180,8 +176,6 @@ This was a simple demo showing the basic ideas of React, using an app with super
 * So you can just dump new components into the vDOM and let React figure out the diffs for you
 * React will only touch the DOM once per browser frame, making rendering very efficient
 
-
-## References
-
+References:
 1. "React’s diff algorithm”, Christopher Chedeau (@vjeux) http://calendar.perfplanet.com/2013/diff/
 
