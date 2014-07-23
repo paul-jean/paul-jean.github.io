@@ -1,5 +1,5 @@
 ---
-title: "Life" the React Way
+title: Life the React Way
 layout: post
 ---
 
