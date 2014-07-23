@@ -107,7 +107,7 @@ punchcard and diurnal plots for timeseries data:
 
 ### Genomics in Wolfram|Alpha
 
-I developed a bunch of genomics content for Wolfram|Alpha
+I developed a bunch of genomics content for Wolfram|Alpha:
 {% include figure.html url="../images/wa-chromosome-location.png" description="" width="600px" %}
 {% include figure.html url="../images/wa-dna-melting.png" description="" width="600px" %}
 {% include figure.html url="../images/wa-genome-matches.png" description="" width="600px" %}
@@ -116,11 +116,17 @@ I developed a bunch of genomics content for Wolfram|Alpha
 
 
 ### Bioinformatics in Mathematica
+
+My initial role at Wolfram was to develop bioinformatics functions for Mathematica. This marketing
+page summarizes the functions I created and helped design:
+
 {% include figure.html url="../images/mma-bio-marketing.png" description="" width="600px" %}
 
 ### Teaching experimental computation at the Wolfram Science Summer School
 
-[blog post](http://blog.wolfram.com/2012/12/20/hunting-for-turing-machines-at-the-wolfram-science-summer-school/)
+The Wolfram Science Summer School was always my favorite time of year. I wrote
+a [blog post](http://blog.wolfram.com/2012/12/20/hunting-for-turing-machines-at-the-wolfram-science-summer-school/)
+about the kind of science project we did there.
 
 {% include figure.html url="../images/turing-rule.png" description="" width="600px" %}
 {% include figure.html url="../images/turing-evolution.png" description="" width="600px" %}
@@ -129,7 +135,7 @@ I developed a bunch of genomics content for Wolfram|Alpha
 
 ### Demonstrations
 
-[my demonstrations](http://demonstrations.wolfram.com/search.html?query=paul-jean)
+All of [my Wolfram demonstrations](http://demonstrations.wolfram.com/search.html?query=paul-jean).
 
 {% include figure.html url="../images/demonstrations.png" description="" width="600px" %}
 
