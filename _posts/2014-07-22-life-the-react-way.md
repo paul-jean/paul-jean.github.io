@@ -3,13 +3,15 @@ title: Life the React Way
 layout: post
 ---
 
-During Hacker School I implemented the Game of Life using React. I also implemented it using vanilla JS for comparison. So I wanted to talk a little bit about what I learned …
+During Hacker School I implemented the [Game of Life using React](https://github.com/paul-jean/life/blob/master/implementations/react-div/life-react-div.js). I also implemented it using [vanilla JS](https://github.com/paul-jean/life/blob/master/implementations/js-div/life-js-div-all.js) for comparison. So I wanted to talk a little bit about what I learned …
 
 The Game of Life is a super simple app to write. All you have is a grid of black and white cells. The cell colors are dynamic: they change from step to step according to the colors of their surrounding neighbors. When you run it, the grid is animated, and cool patterns emerge:
 
 {% include figure.html url="../../../images/gol-js-canvas.gif" description="Game of Life" %}
 
-The JS implementation is straightforward. One way to do it is to make each cell a div that is either black or white. Then just loop over the divs on each step and set their colors:
+To see it running in your browser, go to the GitHub project page [here](http://paul-jean.github.io/life/implementations/js-div/life-js-div.html).
+
+The [JS implementation](https://github.com/paul-jean/life/blob/master/implementations/js-div/life-js-div-all.js) is straightforward. One way to do it is to make each cell a div that is either black or white. Then just loop over the divs on each step and set their colors:
 
 ``` javascript
 var updateGrid = function(gameState) {
@@ -39,7 +41,7 @@ I wrote a [browser extension](https://github.com/paul-jean/dom-viz) that highlig
 
 ## Enter React
 
-So how do things change when you use React?
+So how do things change when you use React? (The React app is [here](http://paul-jean.github.io/life/implementations/react-div/life-react-div.html).)
 
 With React you create “Components” and add them to React’s “virtual DOM”.
 
