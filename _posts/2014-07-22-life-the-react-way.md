@@ -3,8 +3,6 @@ title: Life the React Way
 layout: post
 ---
 
-## Life: The React Way
-
 During Hacker School I implemented the Game of Life using React. I also implemented it using vanilla JS for comparison. So I wanted to talk a little bit about what I learned …
 
 The Game of Life is a super simple app to write. All you have is a grid of black and white cells. The cell colors are dynamic: they change from step to step according to the colors of their surrounding neighbors. When you run it, the grid is animated, and cool patterns emerge:
