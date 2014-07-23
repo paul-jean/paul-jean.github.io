@@ -121,7 +121,7 @@ The Board is initialized with an internal state that is the raw array of 1s and 
 
 When `setState` is called, React triggers an event listener to call the `render` method on the `Board` and all of its children:
 
-{% include figure.html url="../../../images/react-render-children-vjeux.png" description="React re-renders dirty nodes and all their children (1)" %}
+{% include figure.html url="../../../images/react-render-children-vjeux.png" description="React re-renders dirty nodes and all their children (yanked from (1))" %}
 
 So all the `Cell` components within the `Board` get re-rendered on each frame. Notice that the components render in response to a state change. So _the UI updates as a reaction to changes in component state_ (hence the name "React").
 
@@ -156,7 +156,7 @@ So isn’t this inefficient? Surprisingly, no! We’re dumping new components in
 
 React has a clever algorithm for determining the minimum set of DOM nodes that need to change, based on changes in it’s vDOM. It doesn’t do a full tree comparison (which would be O(n^3)). Rather, it just compares nodes on the same level (which is O(n)):
 
-{% include figure.html url="../../../images/react-diff-levels-vjeux.png" description="React diffs the vDOM only between the same levels, which is much faster than considering nodes that move between levels (1)" %}
+{% include figure.html url="../../../images/react-diff-levels-vjeux.png" description="React diffs the vDOM only between the same levels, which is much faster than considering nodes that move between levels (yanked from (1))" %}
 
 Also, all components are rendered in a batch once per browser frame. So the DOM is only touched once per frame. So the React version only updates the cells that are actually changing color:
 
