@@ -98,11 +98,11 @@ punchcard and diurnal plots for timeseries data:
 
 {% include figure.html url="../images/wa-pro-histogram.png" description="Categorical histogram of uploaded data" width="600px" %}
 
-... chloropleth maps:
+... bubble maps:
 
 {% include figure.html url="../images/wa-pro-bubble-map.png" description="Bubble map of geo-tagged financial data" width="600px" %}
 
-... and bubble maps:
+... and chloropleth maps:
 {% include figure.html url="../images/wa-pro-chloropleth.png" description="Chloropleth map of geo-tagged financial data" width="600px" %}
 
 ### Genomics in Wolfram|Alpha
