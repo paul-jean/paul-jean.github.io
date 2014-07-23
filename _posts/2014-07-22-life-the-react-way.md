@@ -3,6 +3,8 @@ title: Life the React Way
 layout: post
 ---
 
+## Life: The React Way
+
 During Hacker School I implemented the Game of Life using React. I also implemented it using vanilla JS for comparison. So I wanted to talk a little bit about what I learned …
 
 The Game of Life is a super simple app to write. All you have is a grid of black and white cells. The cell colors are dynamic: they change from step to step according to the colors of their surrounding neighbors. When you run it, the grid is animated, and cool patterns emerge:
@@ -37,6 +39,7 @@ I wrote a [browser extension](https://github.com/paul-jean/dom-viz) that highlig
 
 {% include figure.html url="../../../images/gol-js-div-dom-viz.gif" description="DOM Viz browser extension showing mutated DOM elements in the JS implementation of GOL" %}
 
+## Enter React
 
 So how do things change when you use React?
 
@@ -121,7 +124,7 @@ The Board is initialized with an internal state that is the raw array of 1s and 
 
 When `setState` is called, React triggers an event listener to call the `render` method on the `Board` and all of its children:
 
-{% include figure.html url="../../../images/react-render-children-vjeux.png" description="React re-renders dirty nodes and all their children (yanked from (1))" %}
+{% include figure.html url="../../../images/react-render-children-vjeux.png" description="React re-renders dirty nodes and all their children (yanked from (1))"  %}
 
 So all the `Cell` components within the `Board` get re-rendered on each frame. Notice that the components render in response to a state change. So _the UI updates as a reaction to changes in component state_ (hence the name "React").
 
@@ -164,7 +167,9 @@ Also, all components are rendered in a batch once per browser frame. So the DOM 
 
 So React is much more efficient by comparison to vanilla JS:
 
-{% include figure.html url="../../../images/gol-js-vs-react-div.gif" description="React (right) touches the DOM much more selectively than the vanilla JS implementation (left)" %}
+{% include figure.html url="../../../images/gol-js-vs-react-div.gif" description="React (right) touches the DOM much more selectively than the vanilla JS implementation (left)" width="800px" %}
+
+## Conclusions
 
 This was a simple demo showing the basic ideas of React, using an app with super simple application logic.
 
@@ -176,6 +181,7 @@ This was a simple demo showing the basic ideas of React, using an app with super
 * So you can just dump new components into the vDOM and let React figure out the diffs for you
 * React will only touch the DOM once per browser frame, making rendering very efficient
 
-References:
+## References
+
 1. "React’s diff algorithm”, Christopher Chedeau (@vjeux) http://calendar.perfplanet.com/2013/diff/
 
