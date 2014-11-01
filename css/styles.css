@@ -8,7 +8,6 @@ body {
   clear: both;
   padding-top: 50px;
   width: 70%;
-  /*border: 1px solid #708090;*/
   margin: 0 auto;
 }
 
@@ -34,7 +33,11 @@ h2, h3 {
     font-weight: 600;
     line-height: 30px;
     margin-bottom: 5px;
-    margin-top: 30px;
+    margin-top: 10px;
+}
+
+h2 {
+    margin-top: 20px;
 }
 
 h3 {
@@ -82,6 +85,23 @@ code {
 #postlist {
   clear: both;
   list-style-type: none;
+  /*border: 1px solid #708090;*/
+}
+
+.tweets {
+  float: left;
+  width: 35%;
+}
+
+.posts {
+  clear: both;
+  float: left;
+  width: 60%;
+  margin-right: 5%;
+}
+
+.posts h2, .tweets h2 {
+    margin-bottom: 30px;
 }
 
 .post_text {
@@ -106,6 +126,10 @@ code {
 
 #nav li {
   display: inline-block;
+}
+
+.speakerdeck {
+  width: 60%;
 }
 
 @media screen and (max-width: 800px) {

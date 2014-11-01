@@ -9,6 +9,12 @@ I was in the Winter 2014 batch of [Hacker School](http://www.hackerschool.com).
 I did a number of projects, including front-end Javascript + HTML + CSS,
 back-end Javascript in Node.js, and functional programming in Scala and Clojure.
 
+In August 2014 I gave a [talk](https://speakerdeck.com/pauljean/hacking-my-tech-career-at-hacker-school)
+about my Hacker School experience at Champaign-Urbana's Tech Mix:
+<div class="speakerdeck">
+<script async class="speakerdeck-embed" data-id="6933efb021ac0132318076af556e37c5" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+</div>
+
 ### Game of Life in many Javascript frameworks
 
 The Game of Life in several different Javascript frameworks.
@@ -37,6 +43,10 @@ MutationSummary API in conjunction with CSS3 animations.
 I was a developer at [Wolfram](http://www.wolfram.com) from 2007 to 2014.
 
 ### Integration of Hadoop with the Wolfram language
+
+<div class="speakerdeck">
+<script async class="speakerdeck-embed" data-id="d0963460d639013125663a0f838a214c" data-ratio="1.29456384323641" src="//speakerdeck.com/assets/embed.js"></script>
+</div>
 
 I wrote a couple of blog posts at Wolfram showing how Hadoop could be used from
 the Wolfram Language. In [part 1](http://blog.wolfram.com/2013/07/31/mathematica-gets-bigdata-with-hadooplink/)
@@ -85,7 +95,7 @@ to send me their keystroke data. I computed the distribution of intra-character 
 I gave a presentation on my quantified self adventures at Wolfram at
 [Data Rave NYC](https://speakerdeck.com/pauljean/quantified-self-adventures-at-wolfram):
 
-<div style="width:600px">
+<div class="speakerdeck">
   <script async class="speakerdeck-embed" data-slide="15" data-id="bfd321209d0b0131134126e81df3a534" data-ratio="1.29456384323641" src="//speakerdeck.com/assets/embed.js"></script>
 </div>
 

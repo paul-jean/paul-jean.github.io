@@ -6,12 +6,20 @@
   <body>
     <div class="content">
       {% include header.html %}
-      <ul id="postlist">
-      {% for post in site.posts %}
-        <li> <span>{{ post.date | date_to_string }}</span> | <a href="{{ post.url }}">{{ post.title }}</a> </li>
-        {{ post.excerpt }}
-      {% endfor %}
-      </ul>
+      <div class="posts">
+        <h2>Low frequency</h2>
+        <ul id="postlist">
+          {% for post in site.posts %}
+          <li> <span>{{ post.date | date_to_string }}</span> | <a href="{{ post.url }}">{{ post.title }}</a> </li>
+          {{ post.excerpt }}
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="tweets">
+        <h2>High frequency</h2>
+        <a height=1000px class="twitter-timeline" href="https://twitter.com/rule146" data-widget-id="528609515189460992">Tweets by @rule146</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </div>
     </div>
   </body>
 </html>
