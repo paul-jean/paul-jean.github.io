@@ -91,7 +91,7 @@
 
   var Board = React.createClass({
     startAnimate: function() {
-        $("#kanye-music").play();
+        $("#kanye-music")[0].play();
         var update = function(){
         this.setState(stepGame(this.state));
       }.bind(this);
@@ -99,7 +99,7 @@
     },
 
     stopAnimate: function() {
-        $("#kanye-music").pause();
+        $("#kanye-music")[0].pause();
         clearInterval(intervalId);
     },
 
