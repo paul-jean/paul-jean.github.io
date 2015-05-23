@@ -91,14 +91,16 @@
 
   var Board = React.createClass({
     startAnimate: function() {
-      var update = function(){
+        $(this).closest("audio").play();
+        var update = function(){
         this.setState(stepGame(this.state));
       }.bind(this);
       intervalId = setInterval(update, 100);
     },
 
     stopAnimate: function() {
-      clearInterval(intervalId);
+        $(this).closest("audio").pause();
+        clearInterval(intervalId);
     },
 
     getInitialState: function () {
