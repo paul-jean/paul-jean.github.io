@@ -1,0 +1,265 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      8988,        255]
+NotebookOptionsPosition[      8335,        226]
+NotebookOutlinePosition[      8690,        242]
+CellTagsIndexPosition[      8647,        239]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Import", "[", 
+  RowBox[{
+  "\"\</Users/rule146/code/kanye-life/images/KanyeWest_4475Web.bmp\>\"", ",", 
+   "\"\<Elements\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.6413352172899237`*^9, 3.641335233281065*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"BitDepth\"\>", ",", "\<\"ColorDepth\"\>", 
+   ",", "\<\"ColorSpace\"\>", ",", "\<\"Data\"\>", ",", "\<\"DataType\"\>", 
+   ",", "\<\"Graphics\"\>", ",", "\<\"GrayLevels\"\>", ",", "\<\"Image\"\>", 
+   ",", "\<\"ImageCompression\"\>", ",", "\<\"ImageResolution\"\>", 
+   ",", "\<\"ImageSize\"\>", ",", "\<\"RGBColorArray\"\>"}], "}"}]], "Output",\
+
+ CellChangeTimes->{{3.641335222793521*^9, 3.641335234423832*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"kanyeData", "=", 
+  RowBox[{"Import", "[", 
+   RowBox[{
+   "\"\</Users/rule146/code/kanye-life/images/KanyeWest_4475Web.bmp\>\"", 
+    ",", "\"\<Data\>\""}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.6413352172899237`*^9, 3.641335261750784*^9}}],
+
+Cell[BoxData[
+ InterpretationBox[
+  TagBox[
+   PanelBox[GridBox[{
+      {
+       StyleBox[
+        StyleBox[
+         DynamicBox[ToBoxes[
+           FEPrivate`FrontEndResource["FEStrings", "sizeExplanation"], 
+           StandardForm],
+          ImageSizeCache->{278., {2., 8.}}],
+         StripOnInput->False,
+         DynamicUpdating->True], "Panel",
+        StripOnInput->False,
+        Background->None]},
+      {
+       ItemBox[
+        TagBox[
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{
+            "1", ",", "1", ",", "0", ",", "1", ",", "1", ",", "1", ",", "0", 
+             ",", "1", ",", "1", ",", "1", ",", "0", ",", "1", ",", "1", ",", 
+             "1", ",", "0", ",", "1", ",", "1", ",", "1", ",", "0", ",", "1", 
+             ",", "1", ",", "1", ",", "0", ",", "1", ",", "1", ",", "1", ",", 
+             "0", ",", "1", ",", "1", ",", "1", ",", "0", ",", "1", ",", "1", 
+             ",", "1", ",", "0", ",", "1", ",", "1", ",", "1", ",", "0", ",", 
+             "1", ",", "1", ",", "1", ",", "0", ",", "1", ",", "1", ",", "1", 
+             ",", "0", ",", "1", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+             "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", 
+             ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+             "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", 
+             ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+             "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", 
+             ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+             "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", 
+             ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+             "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", 
+             ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+             "0", ",", "0", ",", "1", ",", "1", ",", "1", ",", "0", ",", "1", 
+             ",", "1", ",", "1", ",", "0", ",", "1", ",", "1", ",", "1", ",", 
+             "0", ",", "1", ",", "1", ",", "1", ",", "0", ",", "1", ",", "1", 
+             ",", "1", ",", "0"}], "}"}], ",", 
+           RowBox[{"\[LeftSkeleton]", "138", "\[RightSkeleton]"}]}], "}"}],
+         Short[#, 5]& ],
+        Background->GrayLevel[1],
+        BaseStyle->{Deployed -> False},
+        Frame->True,
+        FrameStyle->GrayLevel[0, 0.2],
+        StripOnInput->False]},
+      {
+       RowBox[{
+        ButtonBox[
+         StyleBox[
+          StyleBox[
+           DynamicBox[ToBoxes[
+             FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
+             StandardForm],
+            ImageSizeCache->{49., {1., 8.}}],
+           StripOnInput->False,
+           DynamicUpdating->True], "Panel",
+          StripOnInput->False,
+          Background->None],
+         Appearance->Automatic,
+         ButtonFunction:>OutputSizeLimit`ButtonFunction[
+          Identity, 4, 24479839444003543975, 5/2],
+         Enabled->True,
+         Evaluator->Automatic,
+         Method->"Queued"], "\[ThinSpace]", 
+        ButtonBox[
+         StyleBox[
+          StyleBox[
+           DynamicBox[ToBoxes[
+             FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
+             StandardForm],
+            ImageSizeCache->{52., {1., 8.}}],
+           StripOnInput->False,
+           DynamicUpdating->True], "Panel",
+          StripOnInput->False,
+          Background->None],
+         Appearance->Automatic,
+         ButtonFunction:>OutputSizeLimit`ButtonFunction[
+          Identity, 4, 24479839444003543975, 5 2],
+         Enabled->True,
+         Evaluator->Automatic,
+         Method->"Queued"], "\[ThinSpace]", 
+        ButtonBox[
+         StyleBox[
+          StyleBox[
+           DynamicBox[ToBoxes[
+             FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
+             StandardForm],
+            ImageSizeCache->{82., {2., 8.}}],
+           StripOnInput->False,
+           DynamicUpdating->True], "Panel",
+          StripOnInput->False,
+          Background->None],
+         Appearance->Automatic,
+         ButtonFunction:>OutputSizeLimit`ButtonFunction[
+          Identity, 4, 24479839444003543975, Infinity],
+         Enabled->True,
+         Evaluator->Automatic,
+         Method->"Queued"], "\[ThinSpace]", 
+        ButtonBox[
+         StyleBox[
+          StyleBox[
+           DynamicBox[ToBoxes[
+             FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
+             StandardForm],
+            ImageSizeCache->{74., {1., 8.}}],
+           StripOnInput->False,
+           DynamicUpdating->True], "Panel",
+          StripOnInput->False,
+          Background->None],
+         Appearance->Automatic,
+         ButtonFunction:>FrontEndExecute[{
+            FrontEnd`SetOptions[
+            FrontEnd`$FrontEnd, 
+             FrontEnd`PreferencesSettings -> {"Page" -> "Evaluation"}], 
+            FrontEnd`FrontEndToken["PreferencesDialog"]}],
+         Evaluator->None,
+         Method->"Preemptive"]}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{
+      "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+       "RowsIndexed" -> {}},
+     GridBoxDividers->{
+      "Columns" -> {{False}}, "ColumnsIndexed" -> {}, "Rows" -> {{False}}, 
+       "RowsIndexed" -> {}},
+     GridBoxItemSize->{
+      "Columns" -> {{Automatic}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+       "RowsIndexed" -> {}},
+     GridBoxSpacings->{"Columns" -> {
+         Offset[0.27999999999999997`], {
+          Offset[0.5599999999999999]}, 
+         Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+         Offset[0.2], {
+          Offset[1.2]}, 
+         Offset[0.2]}, "RowsIndexed" -> {}}],
+    DefaultBaseStyle->{},
+    FrameMargins->5],
+   Deploy,
+   DefaultBaseStyle->"Deploy"],
+  Out[4]]], "Output",
+ CellChangeTimes->{{3.641335244457642*^9, 3.641335262693655*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Export", "[", 
+  RowBox[{
+  "\"\</Users/rule146/code/kanye-life/images/KanyeWest_4475Web.json\>\"", ",",
+    "kanyeData"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6413352481899776`*^9, 3.6413352759171143`*^9}, {
+  3.641335335519298*^9, 3.641335359583583*^9}}],
+
+Cell[BoxData["\<\"/Users/rule146/code/kanye-life/images/KanyeWest_4475Web.\
+json\"\>"], "Output",
+ CellChangeTimes->{3.641335379740981*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Dimensions", "[", "kanyeData", "]"}]], "Input",
+ CellChangeTimes->{{3.6413377656439257`*^9, 3.641337775582111*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"139", ",", "139"}], "}"}]], "Output",
+ CellChangeTimes->{3.641337776031208*^9}]
+}, Open  ]]
+},
+WindowSize->{740, 755},
+WindowMargins->{{53, Automatic}, {Automatic, 0}},
+FrontEndVersion->"9.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (January 25, \
+2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 238, 5, 46, "Input"],
+Cell[820, 29, 457, 8, 46, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1314, 42, 268, 6, 46, "Input"],
+Cell[1585, 50, 5974, 146, 198, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7596, 201, 283, 6, 46, "Input"],
+Cell[7882, 209, 139, 2, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8058, 216, 139, 2, 28, "Input"],
+Cell[8200, 220, 119, 3, 28, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
