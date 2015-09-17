@@ -1,0 +1,23 @@
+{
+  "name": "kanye-life",
+  "version": "0.0.0",
+  "description": "game of life kanye style",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:paul-jean/kanye-gol.git"
+  },
+  "author": "Paul-Jean Letourneau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paul-jean/kanye-gol/issues"
+  },
+  "homepage": "https://github.com/paul-jean/kanye-gol",
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "react": "^0.13.3"
+  }
+}
