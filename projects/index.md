@@ -3,26 +3,14 @@ title: Projects
 layout: projects
 ---
 
-## Hacker School
+## Recurse Center
 
-<<<<<<< HEAD
-{% include figure-columns.html url="../images/gol-js-vs-react-div.gif" description="Some projects I worked on as a [hacker school](/projects/hacker-school.html) Winter 2014 batchling." width="500px" %}
-
-## Wolfram
-I was a developer at [Wolfram](http://www.wolfram.com) from 2007 to 2014.
-
-- [Hadoop in the Wolfram Language](/projects/wolfram-hadoop.html)
-- [Personal analytics](/projects/wolfram-personal-analytics.html)
-- [Automated data analysis in Wolfram|Alpha](/projects/wolfram-alpha-pro.html)
-
-
-=======
-I was in the Winter 2014 batch of [Hacker School](http://www.hackerschool.com).
+I was in the Winter 2014 batch of [Recurse Center](https://www.recurse.com).
 I did a number of projects, including front-end Javascript + HTML + CSS,
 back-end Javascript in Node.js, and functional programming in Scala and Clojure.
 
 In August 2014 I gave a [talk](https://speakerdeck.com/pauljean/hacking-my-tech-career-at-hacker-school)
-about my Hacker School experience at Champaign-Urbana's Tech Mix:
+about my Recurse Center experience at Champaign-Urbana's Tech Mix:
 <div class="speakerdeck">
 <script async class="speakerdeck-embed" data-id="6933efb021ac0132318076af556e37c5" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 </div>
@@ -38,7 +26,7 @@ I wrote a post about it [here](/2014/05/17/gol-react.html).
 
 ### DOM Viz Chrome extension
 
-DOM Viz is a Google Chrome extension I wrote at Hacker School for highlighting DOM mutation events on any web page.
+DOM Viz is a Google Chrome extension I wrote at Recurse Center for highlighting DOM mutation events on any web page.
 Intended for visualizing the difference between React.js and vanilla Javascript implementations of the Game of Life.
 
 The key challenge in this project was to figure out how to highlight a DOM element being changed,
