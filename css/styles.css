@@ -9,6 +9,8 @@ body {
   padding-top: 50px;
   width: 70%;
   margin: 0 auto;
+  font-size: 16px;
+  max-width: 800px;
 }
 
 article {
@@ -72,7 +74,12 @@ li {
 }
 
 .figure {
-  font-size: 12px;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.figure > figcaption {
+  font-size: 14px;
 }
 
 p {
@@ -131,6 +138,7 @@ code {
 
 .speakerdeck {
   width: 60%;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 800px) {

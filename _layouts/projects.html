@@ -2,13 +2,14 @@
 ---
 <!DOCTYPE html>
 <html lang="en">
-  {% include top.html %}
+  {% include head.html %}
   <body>
     <div class="content">
-    {% include header.html %}
-      <div class="post_text">
+    {% include nav.html %}
+      <div>
         {{ content }}
       </div>
     </div>
+    {% include bootstrap-body.html %}
   </body>
 </html>
