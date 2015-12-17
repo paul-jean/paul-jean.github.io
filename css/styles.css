@@ -2,6 +2,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 22px;
+  width: 100%;
+  height: 100%;
 }
 
 .content {
@@ -76,6 +78,7 @@ li {
 .figure {
   font-size: 16px;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .figure > figcaption {
@@ -151,5 +154,88 @@ code {
   }
   #nav li {
     margin: 0px 19px 0px 0px;
+  }
+}
+
+.quadrants {
+    width: 800px;
+    height: 800px;
+}
+.quadrants > * {
+    display: inline-block;
+}
+.quadrants > #top-left {
+    clear: both;
+    float: left;
+    background-color: yellow;
+    width: 50%;
+    height: 50%;
+}
+.quadrants > #top-right {
+    float: right;
+    background-color: green;
+    width: 50%;
+    height: 50%;
+}
+.quadrants > #bottom-left {
+    clear: both;
+    float: left;
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+}
+.quadrants > #bottom-right {
+    float: right;
+    background-color: red;
+    width: 50%;
+    height: 50%;
+}
+
+.expanded {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.expanding {
+  outline-style: solid;
+  outline-width: 3px;
+  outline-color: orange;
+ -webkit-animation: expand 1.0s 1 normal;
+}
+
+.contracting {
+  outline-style: solid;
+  outline-width: 3px;
+  outline-color: orange;
+ -webkit-animation: contract 1.0s 1 normal;
+}
+
+@-webkit-keyframes expand {
+  0% {
+      width: 50%;
+      height: 50%;
+  }
+  50% {
+      width: 75%;
+      height: 75%;
+  }
+  100% {
+      width: 100%;
+      height: 100%;
+  }
+}
+
+@-webkit-keyframes contract {
+  0% {
+      width: 100%;
+      height: 100%;
+  }
+  50% {
+      width: 75%;
+      height: 75%;
+  }
+  100% {
+      width: 50%;
+      height: 50%;
   }
 }

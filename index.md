@@ -1,6 +1,6 @@
 ---
 title: About Me
-layout: about
+layout: quadrants
 ---
 
 ## About me
