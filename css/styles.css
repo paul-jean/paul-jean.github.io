@@ -76,6 +76,7 @@ li {
 .figure {
   font-size: 16px;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .figure > figcaption {
@@ -138,7 +139,8 @@ code {
 
 .speakerdeck {
   width: 60%;
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 800px) {
