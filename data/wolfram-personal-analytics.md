@@ -11,7 +11,7 @@ in March 2012. It was a challenge in telling a story about someone's life throug
 their personal data. This stacked distribution plot summarizes much of the
 daily rhythms we uncovered:
 
-{% include figure.html url="../images/pa-sw-stacked-distributions.png" description="Daily rhythms as told by personal data." width="600px" %}
+{% include figure.html url="../images/pa-sw-stacked-distributions.png" description="Daily rhythms as told by personal data." width="100%" %}
 
 We got a lot of comments on the blog
 from people asking how to analyze their own personal data. So we
