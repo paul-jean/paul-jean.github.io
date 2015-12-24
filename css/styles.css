@@ -147,9 +147,11 @@ code {
   .posts {
     clear: both;
     float: left;
+    width: 100%;
   }
   .tweets {
     clear: both;
     float: left;
+    width: 100%;
   }
 }
