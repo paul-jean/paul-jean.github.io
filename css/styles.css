@@ -1,36 +1,36 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
 }
 
 .content {
-  clear: both;
-  padding-top: 50px;
-  width: 70%;
-  margin: 0 auto;
-  font-size: 16px;
-  max-width: 800px;
+    clear: both;
+    padding-top: 50px;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 16px;
+    max-width: 800px;
 }
 
 article {
-  clear: both;
-  margin: 30px 0px;
-  padding-bottom: 30px;
-  border-bottom: 1px solid #ccc;
+    clear: both;
+    margin: 30px 0px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
 }
 
 h1 {
-  padding-bottom: 20px;
-  font-family: 'Bree Serif', serif;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 36px;
-  line-height: 1;
+    padding-bottom: 20px;
+    font-family: 'Bree Serif', serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 36px;
+    line-height: 1;
 }
 
 h2, h3 {
-    color: #32839c; /* steel blue (#1e2736 is too dark) */
+    /* color: #32839c; steel blue (#1e2736 is too dark) */
     font-size: 24px;
     font-weight: 600;
     line-height: 30px;
@@ -50,63 +50,63 @@ h3 {
 }
 
 a {
-  text-decoration: none;
-  color: #4682b4;
+    text-decoration: none;
+    color: #4682b4;
 }
 
 a:hover {
-  text-decoration: underline;
-  color: red;
+    text-decoration: underline;
+    color: red;
 }
 
 li {
-  padding: 5px 0;
-  list-style-type: square;
-  margin-left: 19px;
+    padding: 5px 0;
+    list-style-type: square;
+    margin-left: 19px;
 }
 
 .post h1 {
-  font-size: 24px;
+    font-size: 24px;
 }
 
 .post h2 {
-  font-size: 36px;
+    font-size: 36px;
 }
 
 .figure {
-  font-size: 16px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .figure > figcaption {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 p {
-  padding: 10px 0px;
+    padding: 10px 0px;
 }
 
 code {
-  font-family: courier;
+    font-family: courier;
 }
 
 #postlist {
-  clear: both;
-  list-style-type: none;
-  /*border: 1px solid #708090;*/
+    clear: both;
+    list-style-type: none;
+    /*border: 1px solid #708090;*/
 }
 
 .tweets {
-  float: left;
-  width: 35%;
+    float: left;
+    width: 35%;
 }
 
 .posts {
-  clear: both;
-  float: left;
-  width: 60%;
-  margin-right: 5%;
+    clear: both;
+    float: left;
+    width: 60%;
+    margin-right: 5%;
 }
 
 .posts h2, .tweets h2 {
@@ -114,44 +114,55 @@ code {
 }
 
 .post_text {
-  clear:both;
+    clear:both;
 }
 
 .highlight {
-  background: #f9f9f9;
-  padding: 15px;
-  border: 1px solid #eee;
-  margin: 10px 0;
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #eee;
+    margin: 10px 0;
 }
 
 #title {
-  float: left;
+    float: left;
 }
 
 #nav {
-  float: right;
-  padding-bottom: 40px;
+    float: right;
+    padding-bottom: 40px;
 }
 
 #nav li {
-  display: inline-block;
+    display: inline-block;
 }
 
 .speakerdeck {
-  width: 60%;
-  margin-top: 30px;
-  margin-bottom: 30px;
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-@media screen and (max-width: 800px) {
-  .posts {
-    clear: both;
-    float: left;
-    width: 100%;
-  }
-  .tweets {
-    clear: both;
-    float: left;
-    width: 100%;
-  }
+.navbar-brand {
+    padding: 20px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px; 
+}
+
+@media screen and (max-width: 768px) {
+    .posts {
+        clear: both;
+        float: left;
+        width: 100%;
+    }
+    .tweets {
+        clear: both;
+        float: left;
+        width: 100%;
+    }
+    .navbar-brand {
+        padding: 15px;
+    }
 }
