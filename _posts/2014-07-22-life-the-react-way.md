@@ -7,7 +7,7 @@ During Hacker School I implemented the [Game of Life using React](https://github
 
 The Game of Life is a super simple app to write. All you have is a grid of black and white cells. The cell colors are dynamic: they change from step to step according to the colors of their surrounding neighbors. When you run it, the grid is animated, and cool patterns emerge:
 
-{% include figure.html url="../../../images/gol-js-canvas.gif" description="Game of Life" %}
+{% include figure.html url="../../../images/gol-js-canvas.gif" description="Game of Life" width="100%"%}
 
 To see it running in your browser, go to the GitHub project page [here](http://paul-jean.github.io/life/implementations/js-div/life-js-div.html).
 
@@ -37,7 +37,7 @@ So ideally you wouldn’t try to update the divs that aren’t changing color. M
 
 I wrote a [browser extension](https://github.com/paul-jean/dom-viz) that highlights DOM elements when they’re mutated, and naturally it shows every div being changed on each step:
 
-{% include figure.html url="../../../images/gol-js-div-dom-viz.gif" description="DOM Viz browser extension showing mutated DOM elements in the JS implementation of GOL" %}
+{% include figure.html url="../../../images/gol-js-div-dom-viz.gif" description="DOM Viz browser extension showing mutated DOM elements in the JS implementation of GOL"  width="100%"%}
 
 ## Enter React
 
@@ -124,7 +124,7 @@ The Board is initialized with an internal state that is the raw array of 1s and 
 
 When `setState` is called, React triggers an event listener to call the `render` method on the `Board` and all of its children:
 
-{% include figure.html url="../../../images/react-render-children-vjeux.png" description="React re-renders dirty nodes and all their children (yanked from (1))"  %}
+{% include figure.html url="../../../images/react-render-children-vjeux.png" description="React re-renders dirty nodes and all their children (yanked from (1))"   width="100%"%}
 
 So all the `Cell` components within the `Board` get re-rendered on each frame. Notice that the components render in response to a state change. So _the UI updates as a reaction to changes in component state_ (hence the name "React").
 
@@ -159,15 +159,15 @@ So isn’t this inefficient? Surprisingly, no! We’re dumping new components in
 
 React has a clever algorithm for determining the minimum set of DOM nodes that need to change, based on changes in it’s vDOM. It doesn’t do a full tree comparison (which would be O(n^3)). Rather, it just compares nodes on the same level (which is O(n)):
 
-{% include figure.html url="../../../images/react-diff-levels-vjeux.png" description="React diffs the vDOM only between the same levels, which is much faster than considering nodes that move between levels (yanked from (1))" %}
+{% include figure.html url="../../../images/react-diff-levels-vjeux.png" description="React diffs the vDOM only between the same levels, which is much faster than considering nodes that move between levels (yanked from (1))"  width="100%"%}
 
 Also, all components are rendered in a batch once per browser frame. So the DOM is only touched once per frame. So the React version only updates the cells that are actually changing color:
 
-{% include figure.html url="../../../images/gol-react-div-dom-viz.gif" description="With React, only the cells that change color are mutated in the DOM" %}
+{% include figure.html url="../../../images/gol-react-div-dom-viz.gif" description="With React, only the cells that change color are mutated in the DOM"  width="100%"%}
 
 So React is much more efficient by comparison to vanilla JS:
 
-{% include figure.html url="../../../images/gol-js-vs-react-div.gif" description="React (right) touches the DOM much more selectively than the vanilla JS implementation (left)" width="800px" %}
+{% include figure.html url="../../../images/gol-js-vs-react-div.gif" description="React (right) touches the DOM much more selectively than the vanilla JS implementation (left)"  width="100%" %}
 
 ## Conclusions
 
