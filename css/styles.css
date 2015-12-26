@@ -308,6 +308,10 @@ code {
     -moz-animation-delay: -4s;
 }
 
+.shake:hover {
+    animation-duration: 1.5s;
+}
+
 .shake {
     animation-name: shake;
     animation-duration: 8.0s;
