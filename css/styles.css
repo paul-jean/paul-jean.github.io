@@ -64,12 +64,26 @@ li {
     margin-left: 19px;
 }
 
+ul#postlist > p {
+    margin-left: 19px;
+}
+
 .post h1 {
     font-size: 24px;
 }
 
 .post h2 {
     font-size: 36px;
+}
+
+li.post-summary > a {
+    font-weight: bold;
+}
+
+.post-date {
+    font-color: gray;
+    font-size: 12px;
+    color: gray;
 }
 
 .figure {

@@ -10,7 +10,7 @@
         <h2>Low frequency</h2>
         <ul id="postlist">
           {% for post in site.posts %}
-          <li> <a href="{{ post.url }}">{{ post.title }}</a>  (<span>{{ post.date | date_to_string }}</span>) </li>
+          <li class="post-summary"> <a href="{{ post.url }}">{{ post.title }}</a>  <span class="post-date">{{ post.date | date_to_string }}</span> </li>
           {{ post.excerpt }}
           {% endfor %}
         </ul>
