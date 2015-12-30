@@ -5,6 +5,8 @@ layout: about
 
 ## about me
 
+Hi I'm Paul-Jean. Thanks for visiting!
+
 I'm an artist turned actor turned physicist turned data hacker turned web developer.
 
 After getting a masters in [computational physics](science/), I hacked on
