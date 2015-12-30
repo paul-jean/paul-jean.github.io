@@ -3,7 +3,7 @@ title: Data projects
 layout: projects
 ---
 
-## Data projects
+## data projects
 
 {% include figure-col-right.html page="wiki-rank.html" url="../images/wiki-rank.png" heading="Wikipedia pageview ranking with MongoDB and MapReduce" description="A MapReduce algorithm that ranks wikipedia pageviews by language, with data housed in a MongoDB instance." %}
 

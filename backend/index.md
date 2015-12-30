@@ -3,7 +3,7 @@ title: Projects
 layout: projects
 ---
 
-## Back-end projects
+## back-end projects
 
 {% include figure-col-right.html page="random-noms.html" url="../images/random-noms.png" heading="Random Noms web app" description="A web app that gives you a randomly chosen restaurant from a database of restaurants added by all users." %}
 

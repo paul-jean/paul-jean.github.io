@@ -121,6 +121,10 @@ li.post-summary > a {
     font-size: 14px;
 }
 
+.figure-text {
+    margin-bottom: 20px;
+}
+
 .pad-left-0 {
     padding-left: 0px;
 }

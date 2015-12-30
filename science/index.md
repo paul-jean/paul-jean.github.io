@@ -3,7 +3,8 @@ title: Science projects
 layout: projects
 ---
 
-## Science projects
+## science projects
+
 (More coming soon ...)
 
 ### Class 3 cellular automata

@@ -3,7 +3,7 @@ title: Front end projects
 layout: projects
 ---
 
-## Front-end projects
+## front-end projects
 
 {% include figure-col-right.html page="lazy-tree.html" url="../images/lazytree-demo-domviz.gif" heading="LazyTree React component" description="A React component for navigating nested lists, with lightweight DOM scroll and lazy-loading nested data." %}
 

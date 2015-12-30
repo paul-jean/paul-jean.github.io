@@ -3,7 +3,7 @@ title: Talks
 layout: projects
 ---
 
-## Talks
+## talks
 
 ### Hacking My Tech Career at Hacker School (2014)
 
