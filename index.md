@@ -3,7 +3,7 @@ title: About Me
 layout: about
 ---
 
-## About me
+## about me
 
 I'm an artist turned actor turned physicist turned data hacker turned web developer.
 
