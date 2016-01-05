@@ -22,5 +22,6 @@ On this site you can check out my work on [data](data/), [front end web](fronten
 and [science](science/) I work on.
 
 I am [@rule146](https://twitter.com/rule146) on Twitter and
-[paul-jean](https://github.com/paul-jean) on GitHub.
+[paul-jean](https://github.com/paul-jean) on GitHub. You can find my full CV on my
+[LinkedIn](https://www.linkedin.com/in/pauljeanletourneau) page.
 
