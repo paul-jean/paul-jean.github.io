@@ -105,6 +105,10 @@ li.post-summary > a {
     color: gray;
 }
 
+figure.figure-full {
+    border-top-style: none;
+}
+
 .figure {
     font-size: 16px;
     margin-top: 30px;
@@ -115,7 +119,8 @@ li.post-summary > a {
     margin-right: 0px;
     margin-left: 0px;
     border-color: lightgray;
-    border-width: 1px;}
+    border-width: 1px;
+}
 
 .figure > figcaption {
     font-size: 14px;
