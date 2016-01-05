@@ -21,7 +21,8 @@ On this site you can check out my work on [data](data/), [front end web](fronten
 [back end web](backend/), [blogging](writing/) I've done, [talks](talks/) I've given,
 and [science](science/) I work on.
 
-I am [@rule146](https://twitter.com/rule146) on Twitter and
+I am [@rule146](https://twitter.com/rule146) on Twitter
+(see [here](science/rule-146.html) for the meaning of "rule 146") and
 [paul-jean](https://github.com/paul-jean) on GitHub. You can find my full CV on my
 [LinkedIn](https://www.linkedin.com/in/pauljeanletourneau) page.
 

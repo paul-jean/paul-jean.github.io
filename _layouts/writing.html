@@ -1,0 +1,25 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+  <body>
+    <div class="content">
+      {% include nav.html %}
+      <div class="writing">
+        <h2>blog</h2>
+        <ul>
+          {% for post in site.posts %}
+          <li class="post-summary"> <a href="{{ post.url }}">{{ post.title }}</a>  <span class="post-date nobr">{{ post.date | date_to_string }}</span> </li>
+          {{ post.excerpt }}
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="talks">
+          {{content}}
+      </div>
+    </div>
+    {% include bootstrap-body.html %}
+    {% include footer.html %}
+  </body>
+</html>

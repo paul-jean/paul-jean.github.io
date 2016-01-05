@@ -1,5 +1,5 @@
 ---
-title: Mathematica get BigData with HadoopLink
+title: Mathematica gets BigData with HadoopLink
 layout: post
 ---
 

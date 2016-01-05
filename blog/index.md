@@ -1,6 +1,6 @@
 ---
-title: Talks
-layout: projects
+title: blog/talks
+layout: writing
 ---
 
 ## talks
