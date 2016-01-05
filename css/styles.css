@@ -108,6 +108,7 @@ li.post-summary > a {
     font-color: gray;
     font-size: 12px;
     color: gray;
+    margin-left: 5px;
 }
 
 figure.figure-full {
