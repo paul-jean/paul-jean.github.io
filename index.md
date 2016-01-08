@@ -17,9 +17,8 @@ developer in NYC.
 
 One day, all of my past selves will unite to form [Voltron](https://www.youtube.com/watch?v=tZZv5Z2Iz_s).
 
-On this site you can check out my work on [data](data/), [front end web](frontend/),
-[back end web](backend/), [blogging](writing/) I've done, [talks](talks/) I've given,
-and [science](science/) I work on.
+On this site you can check out my work on [data](data/), [front-end web](frontend/),
+[back-end web](backend/), [blogging](blog/) I've done, and [science](science/) I work on.
 
 I am [@rule146](https://twitter.com/rule146) on Twitter
 (see [here](science/rule-146.html) for the meaning of "rule 146") and
