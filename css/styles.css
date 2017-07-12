@@ -186,9 +186,6 @@ code {
 }
 
 @media screen and (max-width: 768px) {
-    .navbar-brand {
-        padding: 15px;
-    }
 }
 
 .circle {
