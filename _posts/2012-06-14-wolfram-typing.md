@@ -1,5 +1,6 @@
 ---
 title: How do YOU type "wolfram"? Analyzing your typing style using Mathematica
+gif: images/pa-blog-typing-interface.png
 layout: post
 ---
 

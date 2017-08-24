@@ -1,5 +1,6 @@
 ---
 title: Mathematica gets BigData with HadoopLink
+gif: images/hadoop-diagram.png
 layout: post
 ---
 

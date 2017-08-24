@@ -7,13 +7,15 @@
     <div class="content">
       {% include nav.html %}
       <div class="writing">
-        <h2>blog</h2>
-        <ul>
+          <h2>blog</h2>
           {% for post in site.posts %}
-          <li class="post-summary"> <a href="{{ post.url }}">{{ post.title }}</a>  <span class="post-date nobr">{{ post.date | date_to_string }}</span> </li>
-          {{ post.excerpt }}
+              {% capture post_date %} {{ post.date }} {% endcapture %}
+              {% capture post_url %} {{ post.url }} {% endcapture %}
+              {% capture post_title %} {{ post.title }} {% endcapture %}
+              {% capture post_excerpt %} {{ post.excerpt }} {% endcapture %}
+              {% capture post_gif %} {{ post.gif | prepend: "/" }} {% endcapture %}
+              {% include post-col-right.html image=post_gif date=post_date page=post_url heading=post_title description=post_excerpt %}
           {% endfor %}
-        </ul>
       </div>
       <div class="talks">
           {{content}}

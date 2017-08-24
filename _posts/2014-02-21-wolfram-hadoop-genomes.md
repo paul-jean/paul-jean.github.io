@@ -1,5 +1,6 @@
 ---
 title: Searching genomes with Mathematica and HadoopLink
+gif: images/hadooplink-part2-colorsmatchup-2.png
 layout: post
 ---
 

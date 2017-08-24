@@ -1,5 +1,6 @@
 ---
 title: An XML-RPC WordPress client for the Wolfram Language
+gif: images/weblog-client-images/weblog-client-021211_3.gif
 layout: post
 ---
 

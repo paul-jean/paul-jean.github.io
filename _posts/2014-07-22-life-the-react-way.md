@@ -1,5 +1,6 @@
 ---
 title: Life the React Way
+gif: images/gol-react-div-dom-viz.gif
 layout: post
 ---
 
@@ -9,7 +10,7 @@ During Hacker School I implemented the [Game of Life using React](https://github
 
 The Game of Life is a super simple app to write. All you have is a grid of black and white cells. The cell colors are dynamic: they change from step to step according to the colors of their surrounding neighbors. When you run it, the grid is animated, and cool patterns emerge:
 
-{% include figure.html url="../../../images/gol-js-canvas.gif" description="Game of Life" width="100%"%}
+{% include figure.html url="/images/gol-js-canvas.gif" description="Game of Life" width="100%"%}
 
 To see it running in your browser, go to the GitHub project page [here](http://paul-jean.github.io/life/implementations/js-div/life-js-div.html).
 

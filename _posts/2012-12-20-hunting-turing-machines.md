@@ -1,5 +1,6 @@
 ---
 title: Hunting for Turing Machines at the Wolfram Science Summer School
+gif: images/turing-entropy-distribution.png
 layout: post
 ---
 

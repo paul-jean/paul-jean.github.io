@@ -1,5 +1,6 @@
 ---
 title: Analyzing your email with Mathematica
+gif: images/email-outgoing.png
 layout: post
 ---
 
