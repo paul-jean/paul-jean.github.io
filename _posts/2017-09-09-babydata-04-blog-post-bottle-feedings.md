@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Patterns in Toby's bottle feedings"
-gif: assets/2017/09/09/babydata-04-blog-post-bottle-feedings-600px/babydata-04-blog-post-bottle-feedings_3.gif
+gif: assets/2017/09/09/babydata-04-blog-post-bottle-feedings-600px/babydata-04-blog-post-bottle-feedings_63.gif
 date: 2017-09-09
 ---
 
