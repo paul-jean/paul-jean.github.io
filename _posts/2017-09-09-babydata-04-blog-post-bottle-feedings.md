@@ -111,7 +111,7 @@ There's a general trend towards larger bottle amounts per feeding as Toby has go
 
 After Toby was about 6 weeks old, we started putting his feedings onto a schedule. The goal was to get Toby to the point that he could sleep through the night without waking up to eat. In order to do that, we followed a program that recommended a feeding schedule of eating every 4 hours during the day, and gradually decreasing the amount he ate in his night feedings. The idea is that the baby gets more and more of his daily calories during the day, and less and less during the night, until he no longer needs to wake up at night to eat.
 
-So I need to plot the feedings to show both the date and the time of day of the feeding. The best way to show that is with a _diurnal plot_, with the date on the x-axis, and the time of day on the y-axis:
+So I need to plot the feedings to show both the date and the time of day of the feeding. The best way to show that is with a __diurnal plot__, with the date on the x-axis, and the time of day on the y-axis:
 
 ![babydata-04-blog-post-bottle-feedings_55.gif](../../../assets/2017/09/09/babydata-04-blog-post-bottle-feedings-600px/babydata-04-blog-post-bottle-feedings_55.gif)
 
