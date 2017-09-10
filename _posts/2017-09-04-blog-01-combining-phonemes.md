@@ -5,9 +5,7 @@ gif: assets/2017/09/04/blog-01-combining-phonemes-600px/blog-01-combining-phonem
 date: 2017-09-04
 ---
 
-# in search of a baby name ...
-
-## part 2: an algorithm for combining phonemes 
+In part 2 of this series, I explore an algorithm for combining phonemes.
 
 This is part 2 in the series about searching for a name for this cutie-pie:
 

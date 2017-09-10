@@ -5,9 +5,7 @@ gif: assets/2017/09/04/blog-00-introduction-600px/blog-00-introduction_4.gif
 date: 2017-09-04
 ---
 
-# In search of a baby name ...
-
-## Part 1: this baby needs a name
+Part 1 in a series of posts on a nerdy computational search for a name for our new son.
 
 My son was born in April 2017:
 
