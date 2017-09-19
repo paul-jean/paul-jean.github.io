@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Name search part 5: randomly generated names"
-gif: assets/2017/09/18/blog-04-randomly-generated-names-600px/blog-04-randomly-generated-names_4.gif
+gif: assets/2017/09/18/blog-04-randomly-generated-names-600px/blog-04-randomly-generated-names_19.gif
 date: 2017-09-18
 ---
 
