@@ -426,12 +426,15 @@ ul.nav.navbar-nav {
     font-size: 16px;
     max-width: 600px;
 }
-/*
-li {
-    list-style-type: none;
+
+.copyright {
+    float: left;
 }
 
-li::before {
-    content: 
+.rss-feed {
+    float: right;
 }
-*/
+
+.rc-scout {
+    clear: both;
+}
