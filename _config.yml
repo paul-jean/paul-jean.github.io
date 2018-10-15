@@ -4,5 +4,9 @@ markdown: kramdown
 highlighter: rouge
 plugins:
   - jekyll-feed
-# fixing netlify build: https://github.com/DIYbiosphere/sphere/issues/140
+  - jekyll-github-metadata
+# fixing netlify build:
+# https://github.com/DIYbiosphere/sphere/issues/140
+# https://github.com/jekyll/jekyll/issues/5800
 github: [metadata]
+repository: paul-jean/paul-jean.github.io
