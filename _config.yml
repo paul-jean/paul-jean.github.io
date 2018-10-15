@@ -4,3 +4,5 @@ markdown: kramdown
 highlighter: rouge
 plugins:
   - jekyll-feed
+# fixing netlify build: https://github.com/DIYbiosphere/sphere/issues/140
+github: [metadata]
